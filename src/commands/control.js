@@ -2,6 +2,10 @@ const commander = require('../exchanger')
 
 const connect = () => commander.send('command')
 
+const streamOn = () => commander.send("streamon");
+
+const streamOff = () => commander.send("streamOff");
+
 const takeOff = () => commander.send('takeoff')
 
 const land = () => commander.send('land')
