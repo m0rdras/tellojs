@@ -4,7 +4,7 @@ const connect = () => commander.send('command')
 
 const streamOn = () => commander.send("streamon");
 
-const streamOff = () => commander.send("streamOff");
+const streamOff = () => commander.send("streamoff");
 
 const takeOff = () => commander.send('takeoff')
 
